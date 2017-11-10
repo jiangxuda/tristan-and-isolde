@@ -18,7 +18,7 @@ def plot_heart():
         'BVB',
         fontsize=40,
         fontweight='bold',
-        color='black',
+        color='white',
         horizontalalignment='center'
     )
 
@@ -28,3 +28,4 @@ def plot_heart():
 if __name__ == '__main__':
     heart_fig = plot_heart()
     heart_fig.show()
+    plt.savefig('heart.pdf')
